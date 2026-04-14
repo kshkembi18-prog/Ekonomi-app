@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ekonomi App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Ekonomi – Mësim Interaktiv</h1>
+  </header>
+
+  <main>
+    <section id="lessons">
+      <h2>Leksione</h2>
+      <ul>
+        <li onclick="showLesson(0)">Çfarë është ekonomia</li>
+        <li onclick="showLesson(1)">Oferta dhe kërkesa</li>
+        <li onclick="showLesson(2)">Paga bruto dhe neto</li>
+      </ul>
+    </section>
+
+    <section id="content">
+      <h2>Përmbajtja</h2>
+      <p id="lessonText">Zgjidh një leksion për të filluar.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
